@@ -86,6 +86,9 @@ export const ModalAmount = (props: Props) => {
   const getHeaderText = (purchaseType, sellerName) => {
     switch (purchaseType) {
       case ModalPaymentTypes.modalPages.donation:
+        if (sellerName === 'Apex for Youth') {
+          return t('purchase.donationDefault');
+        }
         return t('purchase.donation', { seller: sellerName });
       case ModalPaymentTypes.modalPages.gift_card:
         return t('purchase.voucher', { seller: sellerName });
@@ -296,4 +299,10 @@ const Header = styled.div`
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
+`;
+
+const Footer = styled.p`
+  position: relative;
+  left: 0;
+  bottom: -100px;
 `;
