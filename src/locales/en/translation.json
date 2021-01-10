@@ -88,6 +88,7 @@
     "meals": "meals"
   },
   "purchase": {
+    "footer": "Certain Gift-a-Meal campaigns will be conducted in partnership with Apex for Youth, a 501(c)(3) nonprofit organization. If a campaign is denoted as such, contributions will be tax deductible.",
     "donationDefault": "Gift-A-Meal Donation",
     "donation": "Donation for {{seller}}",
     "voucher": "Voucher for {{seller}}",
@@ -406,7 +407,7 @@
           "question": "Will the tickets I’ve collected carry over into other weeks?",
           "answer": "Yes! Once you input your ticket codes into your <1>Passport to Chinatown</1>, they are automatically saved to your email. The tickets collected during one week of the Food Crawl can roll over to other weeks. For example, if you collect one (1) ticket during the first week of September, you can get two (2) more tickets during another week in September to have a total of three (3) tickets. You can now use these three (3) tickets to redeem a local reward from one of our reward partners. <2></2> We’ll select winners for digital giveaway four (4) times throughout the month."
         },
-        { 
+        {
           "question": "Do I get a grand prize for visiting ALL 13 vendors on the Food Crawl?",
           "answer": "YES! Visit all 13 vendors in the month of September to be entered into our grand prize giveaway!"
         },

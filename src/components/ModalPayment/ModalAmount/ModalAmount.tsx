@@ -213,6 +213,10 @@ export const ModalAmount = (props: Props) => {
       >
         {t('paymentProcessing.amount.submit')}
       </NextButton>
+
+      {modalView === ModalPaymentTypes.modalPages.donation && (
+        <Footer>{t('purchase.footer')}</Footer>
+      )}
     </ContentContainer>
   );
 };
